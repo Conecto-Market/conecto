@@ -4,9 +4,10 @@ Conecto gives an AI agent the systems a small business runs on: a CRM, email inb
 
 ## The Conecto skill
 
-[`skills/conecto/SKILL.md`](skills/conecto/SKILL.md) connects an OpenClaw agent to Conecto over MCP, with the person's own sign-in.
+[`skills/conecto/SKILL.md`](skills/conecto/SKILL.md) connects an AI agent to Conecto over MCP. It has the setup for Claude Code, Codex, Cursor, Gemini CLI, Hermes Agent and OpenClaw.
 
 - OpenClaw: `openclaw skills install conecto`
+- Any agent the `skills` CLI supports: `npx skills add Conecto-Market/conecto`
 - Any agent that reads skills: send it `Set up Conecto from https://conecto.chat/SKILL.md`
 - MCP server: `https://api.conecto.chat/v1/mcp` (OAuth sign-in, or a key as `Authorization: Bearer`)
 
