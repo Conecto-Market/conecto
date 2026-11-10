@@ -1,6 +1,6 @@
 ---
 name: help-desk
-description: "Run a customer help desk from OpenClaw: email to a support address opens a ticket, you answer in the same thread, and queues show what is overdue. Use when the person wants support tickets, a support@ inbox, a ticket queue, canned replies or a support report. Runs on Conecto, a paid service with $1.00 of free credit: a reply costs $0.05 and reading is free."
+description: "Run a customer help desk from OpenClaw: email to a support address opens a ticket, you answer in the same thread, and queues show what is overdue. Use for support tickets, a support@ inbox, canned replies or reports. Runs on Conecto, paid, with $1.00 of free credit: a reply costs $0.05."
 metadata:
   openclaw:
     homepage: https://conecto.chat/solutions/ai-help-desk?from=clawhub
