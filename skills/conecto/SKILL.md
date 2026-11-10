@@ -126,7 +126,7 @@ Each area is a set of tools. Before you call a tool for the first time, read its
 
 ## Money
 
-- Every tool has a published price on its page. Examples: $0.01 for a CRM change, $0.001 per email recipient, $0.10 for an invoice sent, $0.01 for a meeting booked, $0.50 for a document sent for signing, $0.25 per started minute of an answered call.
+- Every tool has a published price on its page. Examples: $0.01 for a CRM change, $0.001 per email recipient, $0.10 for an invoice sent, $0.01 for a meeting booked, $0.20 for a document sent for signing, $0.25 per started minute of an answered call.
 - Reading the business's own data is free up to 1,000,000 reads a month, and a call that fails costs nothing. Every reply carries `cost_usd` and `balance_usd`.
 - A new account starts with $1.00 of free credit. Only a person adds money, through a Stripe checkout on the account page (https://conecto.chat/account), from $5.00 plus a 7% + $0.35 fee.
 - AI visibility and the phone run only on credit someone bought, never on free or bonus credit.
@@ -137,7 +137,7 @@ Each area is a set of tools. Before you call a tool for the first time, read its
 - Ask the person before a call that reaches people outside the business (an email to a customer, an invoice, a document to sign), starts a monthly rental (an inbox or a phone number), or costs more than $1.00, unless they asked for exactly that. Reading and searching need no question.
 - The owner can make chosen tools wait for a person's approval. Such a call answers `approval_required`, and the request goes to the approver.
 - A refused call says why and how to fix it. Every error code: https://conecto.chat/docs/errors.md
-- Conecto's own rules: email and calls to people outside the business need one real top-up first, the phone line tells every caller it is an AI, and the only outbound calls confirm meetings booked in advance.
+- Conecto's own rules: the phone needs one real top-up first, the phone line tells every caller it is an AI, and the only outbound calls confirm meetings booked in advance.
 
 ## More
 
